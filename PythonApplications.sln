@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplications", "PythonApplications\PythonApplications.pyproj", "{33D521D2-045F-41F8-8BDA-DD8639B34724}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TcpServer", "TcpServer\TcpServer.pyproj", "{65F29F50-2E63-404E-B46E-13D1FAB94232}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TcpClient", "TcpClient\TcpClient.pyproj", "{3CD19E81-BA6A-43FF-BA45-84C3002FD769}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +17,10 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{33D521D2-045F-41F8-8BDA-DD8639B34724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{33D521D2-045F-41F8-8BDA-DD8639B34724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F29F50-2E63-404E-B46E-13D1FAB94232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F29F50-2E63-404E-B46E-13D1FAB94232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD19E81-BA6A-43FF-BA45-84C3002FD769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD19E81-BA6A-43FF-BA45-84C3002FD769}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
