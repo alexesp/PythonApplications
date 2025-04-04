@@ -1,5 +1,6 @@
 #Chat Server side
 from email import message
+from mailbox import Message
 import socket
 
 #Define constants to be used
@@ -10,7 +11,7 @@ BYTESIZE = 1024
 
 #Create a server socket
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server_socket.bind(HOST_IP, HOST_IP)
+server_socket.bind((HOST_IP, HOST_PORT))
 server_socket.listen()
 
 #Accept any incoming connection and let ht em know they are connected
@@ -22,3 +23,16 @@ client_socket.send("You are connected to the server..\n".encode(ENCODER))
 while True:
     #Recieve information from the client
     message = client_socket.recv(BYTESIZE).decode(ENCODER)
+
+    #Quit if the client socket wants to quit, else display the message
+    if message == "quit":
+        client_socket.send("quit".encode(ENCODER))
+        print("\nEnding the chat...goodbye!")
+        break
+    else:
+        print(f"\n{message}")
+        message = input("Message: ")
+        client_socket.send(message.encode(ENCODER))
+
+#Close the socket
+server_socket.close()
