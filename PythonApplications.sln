@@ -9,6 +9,14 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TcpServer", "TcpServer\TcpS
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "TcpClient", "TcpClient\TcpClient.pyproj", "{3CD19E81-BA6A-43FF-BA45-84C3002FD769}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "UdpServer", "UdpServer\UdpServer.pyproj", "{E8AD0B9C-AE7C-4C4D-B5DE-9902B791A7AD}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "UdpClient", "UdpClient\UdpClient.pyproj", "{ED7B679C-D4CE-4050-A88D-E5E4227C0289}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ChatServer", "ChatServer\ChatServer.pyproj", "{D29515DF-8A02-4B2B-8592-4D3D87DD7B0B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ChatClient", "ChatClient\ChatClient.pyproj", "{234F2A70-5E6C-4443-9B25-ECD2EB0EFED2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +29,14 @@ Global
 		{65F29F50-2E63-404E-B46E-13D1FAB94232}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CD19E81-BA6A-43FF-BA45-84C3002FD769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3CD19E81-BA6A-43FF-BA45-84C3002FD769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8AD0B9C-AE7C-4C4D-B5DE-9902B791A7AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8AD0B9C-AE7C-4C4D-B5DE-9902B791A7AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED7B679C-D4CE-4050-A88D-E5E4227C0289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED7B679C-D4CE-4050-A88D-E5E4227C0289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D29515DF-8A02-4B2B-8592-4D3D87DD7B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D29515DF-8A02-4B2B-8592-4D3D87DD7B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{234F2A70-5E6C-4443-9B25-ECD2EB0EFED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{234F2A70-5E6C-4443-9B25-ECD2EB0EFED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -13,6 +13,8 @@ message = client_socket.recv(1024)
 print(message.decode("utf-8"))
 print(type(message))
 
+
+
 #Close the client socket
 client_socket.close()
 
